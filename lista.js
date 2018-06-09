@@ -51,11 +51,13 @@ class ListaConvidados {
     } //Fim de adicionar()
 
     excluir(id) {
-        let conv = document.getElementById(id);
-        let lis = document.getElementById("lista");
-        lis.removeChild(conv);
-        this.qtd--;
-        this.atualizarQtd();
+        if (window.confirm("Deseja excluir este convidado ?")) {
+            let conv = document.getElementById(id);
+            let lis = document.getElementById("lista");
+            lis.removeChild(conv);
+            this.qtd--;
+            this.atualizarQtd();
+        }
     }
 
     editar(id) {
