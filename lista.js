@@ -2,8 +2,7 @@ class ListaConvidados {
 
     constructor() {
         this.qtd = 0;
-        this.id = 1;
-        
+        this.id = 1;        
     }
 
     adicionar() {
