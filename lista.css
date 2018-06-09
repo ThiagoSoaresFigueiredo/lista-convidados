@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    color: rgb(59, 53, 53);
+    background-image: url("https://revista.icasei.com.br/wp-content/uploads/2016/09/Como-fazer-a-lista-de-convidados-organizar.jpg");
+    background-size: cover;
+}
+
+.card {
+    width: 30%;
+    margin: auto;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px gray;
+    text-align: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.card-title {
+    font-weight: bold;
+    color: gray;
+}
+
+.card-form {
+    padding: 10px;
+}
+
+.card-form input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    background-color: blanchedalmond;
+    color: rgb(59, 53, 53);
+    text-align: center;
+    padding: 10px;
+}
+
+.card-acoes button {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-acoes button:hover {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px 10px black;
+}
+
+.item-lista {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.item-lista img {
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}

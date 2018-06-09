@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Lista de Convidados</title>
+
+    <link rel="stylesheet" href="lista.css">
+
+    <script src="lista.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="card-title">Cadastrar Convidado</h1>
+        <div class="card-form">
+            <input type="text" name="nome" id="inputConvidado" placeholder="Nome do convidado" />
+        </div>
+        <div class="card-acoes">
+            <button onclick="lista.adicionar()">Adicionar</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2 class="card-title">Lista de Convidados
+            <label id="labelQtd">()</label>
+        </h2>
+
+        <div id="lista"></div>
+    </div>
+</body>
+
+</html>
