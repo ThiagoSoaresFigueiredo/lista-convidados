@@ -45,7 +45,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
-    width: 50%;
+    width: 40%;
 }
 
 .card-acoes button:hover {
@@ -56,7 +56,7 @@ body {
 }
 
 .item-lista {
-    padding: 10px 30px;
+    padding: 15px;
     text-align: left;
 }
 
